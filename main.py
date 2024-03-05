@@ -10,7 +10,7 @@ import plotly.express as px
 # Load Data
 @st.cache
 def load_data():
-    data = pd.read_csv("dataset/day.csv")
+    data = pd.read_csv("day.csv")
     return data
 
 # Sidebar
